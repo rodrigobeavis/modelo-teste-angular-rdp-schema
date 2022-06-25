@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<testsuite name="Chrome Headless 102.0.5005.115 (Windows 10)" package="" timestamp="2022-06-24T00:14:49" id="0" hostname="DESKTOP-BD95JUS" tests="8" errors="0" failures="0" time="0.096">
+  <properties>
+    <property name="browser.fullName" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/102.0.5005.115 Safari/537.36"/>
+  </properties>
+  <testcase name="LikeWidgetComponent Should NOT auto-generate ID during ngOnInit when (@input id&#xA;    ) property is assinged" time="0.063" classname="Chrome_Headless_102_0_5005_115_(Windows_10).LikeWidgetComponent"/>
+  <testcase name="LikeWidgetComponent #like&#xA;  Should trigger (@Output liked) when called" time="0.019" classname="Chrome_Headless_102_0_5005_115_(Windows_10).LikeWidgetComponent"/>
+  <testcase name="LikeWidgetComponent should create componente" time="0.007" classname="Chrome_Headless_102_0_5005_115_(Windows_10).LikeWidgetComponent"/>
+  <testcase name="LikeWidgetComponent Should NOT auto-generate ID during ngOnInit when (@input id&#xA;      ) property is assinged" time="0.005" classname="Chrome_Headless_102_0_5005_115_(Windows_10).LikeWidgetComponent"/>
+  <testcase name="UniqueIdService #generateUniqueIdWidthPrefix&#xA;  should generate id when called with prefix" time="0" classname="Chrome_Headless_102_0_5005_115_(Windows_10).UniqueIdService"/>
+  <testcase name="UniqueIdService #generateUniqueIdWidthPrefix&#xA;  should not genereate duplicate Ids when called multiples times" time="0.001" classname="Chrome_Headless_102_0_5005_115_(Windows_10).UniqueIdService"/>
+  <testcase name="UniqueIdService #getNumberOfGeneratedUniqueIds&#xA;  should throw when called with empty" time="0.001" classname="Chrome_Headless_102_0_5005_115_(Windows_10).UniqueIdService"/>
+  <testcase name="UniqueIdService #getNumberOfGeneratedUniqueIds&#xA;  should return the numeber of generateIds when called" time="0" classname="Chrome_Headless_102_0_5005_115_(Windows_10).UniqueIdService"/>
+  <system-out>
+    <![CDATA[
+]]>
+  </system-out>
+  <system-err/>
+</testsuite>

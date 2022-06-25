@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<testsuite name="Firefox 101.0 (Windows 10)" package="" timestamp="2022-06-24T00:14:47" id="0" hostname="DESKTOP-BD95JUS" tests="8" errors="0" failures="0" time="0.145">
+  <properties>
+    <property name="browser.fullName" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:101.0) Gecko/20100101 Firefox/101.0"/>
+  </properties>
+  <testcase name="UniqueIdService #generateUniqueIdWidthPrefix&#xA;  should not genereate duplicate Ids when called multiples times" time="0.002" classname="Firefox_101_0_(Windows_10).UniqueIdService"/>
+  <testcase name="UniqueIdService #getNumberOfGeneratedUniqueIds&#xA;  should return the numeber of generateIds when called" time="0.001" classname="Firefox_101_0_(Windows_10).UniqueIdService"/>
+  <testcase name="UniqueIdService #getNumberOfGeneratedUniqueIds&#xA;  should throw when called with empty" time="0" classname="Firefox_101_0_(Windows_10).UniqueIdService"/>
+  <testcase name="UniqueIdService #generateUniqueIdWidthPrefix&#xA;  should generate id when called with prefix" time="0.001" classname="Firefox_101_0_(Windows_10).UniqueIdService"/>
+  <testcase name="LikeWidgetComponent #like&#xA;  Should trigger (@Output liked) when called" time="0.107" classname="Firefox_101_0_(Windows_10).LikeWidgetComponent"/>
+  <testcase name="LikeWidgetComponent Should NOT auto-generate ID during ngOnInit when (@input id&#xA;    ) property is assinged" time="0.013" classname="Firefox_101_0_(Windows_10).LikeWidgetComponent"/>
+  <testcase name="LikeWidgetComponent Should NOT auto-generate ID during ngOnInit when (@input id&#xA;      ) property is assinged" time="0.009" classname="Firefox_101_0_(Windows_10).LikeWidgetComponent"/>
+  <testcase name="LikeWidgetComponent should create componente" time="0.012" classname="Firefox_101_0_(Windows_10).LikeWidgetComponent"/>
+  <system-out>
+    <![CDATA[
+]]>
+  </system-out>
+  <system-err/>
+</testsuite>
